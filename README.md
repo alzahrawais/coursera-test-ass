@@ -1,2 +1,2 @@
-# coursera-test-ass
+# coursera-test-assignment
 coursera asignment and test repositry

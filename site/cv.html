@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>portfolio</title>
+	<title>CV</title>
 	  <style> 
-        #footer { 
-            position: fixed; 
+        #footer {  
             padding: 10px 10px 0px 10px; 
             bottom: 0; 
             width: 100%; 
             /* Height of the footer*/  
             height: 40px; 
         } 
+         a:link , a:visited{
+        	font-family: Helvetica;
+        	text-decoration: none;
+        	background: green;
+        	color: white;
+        	display: inline-block;
+        	width: 250px;
+        	font-size: 40px;
+        	margin: 10px;
+        	text-align: center;
+        	border: 1px solid green;
+        }
+         a:hover , a:active{
+        	background: white;
+        	color: green;
+        	cursor: pointer;
+        	border: 1px solid green;
+        }
+        h1{
+        	background: red;
+        	text-align: center;
+        	color: white;
+        }
+
+       section{
+        	background: black;
+        	color: white;
+        }
+        article{
+        	background: indigo;
+        }
     </style> 
 </head>
 <body>
-	<button><a href="index.html" target="">go back</a></button>
-	<header>This is awais. I have done bechelor's in IT. Now I'm doing master's in CS.</header>
+	<a href="index.html" target="">go back</a>
+	<header id="head">This is awais. I have done bechelor's in IT. Now I'm doing master's in CS.</header>
+	<img src="CVpic.jpg" alt="my profile pic" height="400" width="300">
 <br><br>
 <section><h1>Education</h1>
 	<article>Matriculation from Govt. high school Shahdara Lahore and FSc. from GICCL.</article>
@@ -34,6 +65,8 @@
 	<article>Logical-thinking: Problem solver.</article>
 	<article>Teamwork</article>
 </section>
+<br>
 <footer id="footer">Wednesday, March 17, 2021</footer>
 </body>
+<a href="#head">go up</a>
 </html>

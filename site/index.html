@@ -3,6 +3,7 @@
 <head>
 	<title>About me</title>
 	 <style> 
+
         #footer { 
             position: fixed; 
             padding: 10px 10px 0px 10px; 
@@ -10,13 +11,34 @@
             width: 100%; 
             height: 40px; 
         } 
+        a:link , a:visited{
+        	font-family: Helvetica;
+        	text-decoration: none;
+        	background: green;
+        	color: white;
+        	display: inline-block;
+        	width: 250px;
+        	font-size: 40px;
+        	margin: 10px;
+        	text-align: center;
+        }
+
+        a:hover , a:active{
+        	height: 250px;
+        	writing-mode: vertical-lr;
+			text-orientation: upright;
+        	background: white;
+        	color: green;
+        	cursor: pointer;
+        	border: 1px solid green;
+        }
     </style> 
 	 
 </head>
 <body>
 <p>which of the section, about me, you want to know?</p>
-	<button><a href="cv.html" target="_blank">cv</a></button>
-	<button><a href="roadplan.html" target="_blank">road plan</a></button>
+	<a href="roadplan.html" target="_blank">Road Plan</a>
+	<a href="cv.html" target="_blank">CV</a>
 	
 <footer id="footer">Wednesday, March 17, 2021</footer>
 </body>

@@ -82,6 +82,18 @@ p{
 	color: black;
 	clear: right;
 }	
+#c{
+background-color: green;
+color: white;
+}
+#b{
+background-color: white;
+color: green;
+}
+#s{
+background-color: brown;
+color: white;
+}
 }
 @media (max-width: 767px){
 
@@ -110,4 +122,16 @@ p{
 	color: black;
 	clear: right;
 }	
+#c{
+background-color: green;
+color: white;
+}
+#b{
+background-color: white;
+color: green;
+}
+#s{
+background-color: brown;
+color: white;
+}
 }

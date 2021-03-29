@@ -19,8 +19,7 @@ div{
 }
 
 h3{
-	background-color: black;
-	color: white;
+	
 	margin:0px;
 	text-align: center;
 	width: 100px;
@@ -34,6 +33,18 @@ p{
 	color: black;
 	clear: right;
 }	
+#c{
+background-color: green;
+color: white;
+}
+#b{
+background-color: white;
+color: green;
+}
+#s{
+background-color: brown;
+color: white;
+}
 }
 @media(min-width: 768px) and (max-width: 991px){
 

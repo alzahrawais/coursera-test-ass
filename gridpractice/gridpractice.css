@@ -1,0 +1,35 @@
+
+h1{margin: 90px 10px 0px 10px;
+	text-align: center;
+}
+.row{
+	margin-top: 40px;
+	padding: 10px;
+	background-color: #F1F0F0;
+}
+.row > div{
+	background-color: black;
+	color: white;
+	border: 10px solid #F1F0F0;
+}
+ .logo-image{
+  	margin-top: -20px;
+ 	margin-bottom: -50px;
+    width: 150px;
+    height: 150px;
+}
+#navigation-bar{
+	background-color: black;
+}
+
+
+
+/*<nav class="navbar navigation-bar">
+		
+			<a class="navbar-brand" href="index.html">
+     			 <div class="logo-image">
+            		<img src="pngwing.png" class="img-fluid">
+      			</div>
+			</a>
+		hello
+	</nav>
